@@ -1,0 +1,32 @@
+.footer{
+    min-height: 80px;
+    width: 100vw;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
+
+.footer_items{
+    text-align: center;
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.footer_a{
+    text-decoration: none;
+    margin: 3px;
+    padding: 7px;
+    border: 1px solid deepskyblue;
+    border-radius: 7px;
+    font-size: 16px;
+    background: transparent;
+    color: deepskyblue;
+    cursor: pointer;
+}

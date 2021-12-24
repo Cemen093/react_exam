@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+}
+
+.card{
+  display: flex;
+  padding: 15px;
+  border: 2px solid deepskyblue;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hit_card{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid deepskyblue;
+  margin-top: 15px;
+
+}
+
+.hit_content{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card_content{
+
+}
